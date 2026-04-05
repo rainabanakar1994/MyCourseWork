@@ -12,6 +12,7 @@ pipeline {
         GIT_REPO = 'https://github.com/rainabanakar1994/mycoursework.git'
 
         GIT_BRANCH = 'develop'
+        KUBECONFIG = '/var/lib/jenkins/.kube/config'
     }
 
     triggers {
